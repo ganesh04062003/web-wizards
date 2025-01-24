@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1E90FF;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+#map {
+  height: 500px;
+}
+
+#beach-links {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+#beach-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+#beach-links li {
+  margin: 10px 0;
+}
+
+#beach-links a {
+  text-decoration: none;
+  color: #1E90FF;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #1E90FF;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
