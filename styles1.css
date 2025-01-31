@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #3a85a3;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#map-container {
+  width: 90%;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#beach-links {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#discover-beaches-btn {
+  padding: 10px 20px;
+  background-color: #0f75db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#discover-beaches-btn:hover {
+  background-color: #0c5aa6;
+}
+
+footer {
+  background-color: #1E90FF;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
