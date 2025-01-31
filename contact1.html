@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Beach Tourism</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Main font */
+            margin: 0;
+            padding: 0;
+            background: url("beach_background.jpg"); /* Replace with your background image */
+            background-size: cover;
+            background-attachment: fixed; /* Keeps background in place on scroll */
+            color: #333; /* Darkish text for contrast */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto; /* Added margin for top/bottom spacing */
+            padding: 30px; /* Increased padding */
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif; /* Decorative heading font */
+            text-align: center;
+            margin-bottom: 30px;
+            color: #007bff; /* Blue heading color */
+        }
+
+        .contact-form {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px; /* Increased gap */
+        }
+
+        label {
+            font-weight: 500; /* Slightly less bold */
+            color: #555;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px; /* Increased padding */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px; /* Improved font size */
+        }
+
+        textarea {
+            height: 150px; /* Increased height for textarea */
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px; /* Increased padding */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px; /* Improved font size */
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (min-width: 768px) {
+            .contact-form {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px; /* Increased gap on larger screens */
+            }
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 16px; /* Improved font size */
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <div class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </div>
+
+        <div class="contact-info">
+            <p>Visit us at: [Your Beach Address]</p>
+            <p>Call us at: <a href="tel:+91-[Your Phone Number]">+91-9841512348</a></p>
+            <p>Email us at: <a href="mailto:[Your Email Address]">WavesandWonders@gmail.com</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
